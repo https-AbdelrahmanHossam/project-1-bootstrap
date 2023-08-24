@@ -1,6 +1,6 @@
 # Project created with Bootstrap
 
-<a href="https://react-seo-marketing-page.surge.sh/" target="_blank">Live Preview</a>
+<a href="https://bootstrap-landing-page.surge.sh/" target="_blank">Live Preview</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
