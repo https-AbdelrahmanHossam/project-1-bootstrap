@@ -1,0 +1,147 @@
+/* ----------------
+		Responsive
+	---------------------*/
+
+/* Large screen : 1199px. */
+@media only screen and (max-width: 1199px) {
+  /*------------
+   SERVICES-SECTION
+  --------------*/
+  .services img {
+    display: none;
+  }
+  .services .b4::before {
+    content: "";
+    display: none;
+  }
+
+  .b4 {
+    display: none;
+  }
+  /*------------
+   SERVICES-SECTION
+  --------------*/
+}
+/* Medium screen : 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /*----------
+   ABOUT-SECTION 
+  -----------*/
+  .abt-img::after {
+    width: 190px;
+    height: 384px;
+    right: 72px;
+  }
+  /*----------
+   ABOUT-SECTION 
+  -----------*/
+}
+
+/* Tablet :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*----------
+   ABOUT-SECTION 
+  -----------*/
+  .abt-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .abt-img::before {
+    display: none;
+  }
+
+  .abt-img::after {
+    display: none;
+  }
+
+  .abt-content {
+    text-align: center;
+  }
+
+  .about .col-lg-6 p:nth-child(1) {
+    width: 102%;
+  }
+
+  .about .col-lg-6 p:last-child {
+    width: 104%;
+  }
+  /*----------
+   ABOUT-SECTION 
+  -----------*/
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 767px) {
+  /* ------
+   Components 
+  -------*/
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + P {
+    margin: -28px 0 0;
+  }
+  /* ------
+   Components 
+  --------*/
+
+  /*------------
+   SERVICES-SECTION
+  --------------*/
+  .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+  /*------------
+   SERVICES-SECTION
+  ---------------*/
+
+  /*----------
+   ABOUT-SECTION 
+  -----------*/
+  .abt-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .abt-img::before {
+    display: none;
+  }
+
+  .abt-img::after {
+    display: none;
+  }
+
+  .abt-content {
+    text-align: center;
+  }
+
+  .about .col-lg-6 p:nth-child(1) {
+    width: 102%;
+  }
+
+  .about .col-lg-6 p:last-child {
+    width: 104%;
+  }
+  /*----------
+   ABOUT-SECTION 
+  -----------*/
+
+  /* -----------
+   CONTACT-SECTION
+  ------------ */
+  .contact .info .label {
+    font-size: 25px;
+  }
+  .contact .info .link {
+    font-size: 25px;
+  }
+  /* -----------
+   CONTACT-SECTION
+  ------------ */
+}
